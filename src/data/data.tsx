@@ -10,7 +10,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -264,11 +263,6 @@ export const contact: ContactSection = {
       text: 'saket030801',
       href: 'https://github.com/saket030801',
     },
-    {
-      type: ContactType.Twitter,
-      text: 'unchantedS0UL',
-      href: 'https://twitter.com/unchantedS0UL',
-    },
   ],
 };
 
@@ -279,5 +273,4 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/saket030801'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/saketramsinghani/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/saketramsinghani/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/unchantedS0UL'},
 ];
