@@ -23,9 +23,9 @@ import {
   Hero,
   HomepageMeta,
   PortfolioItem,
+  QuotesSection,
   SkillGroup,
   Social,
-  QuotesSection,
   TimelineItem,
 } from './dataDef';
 
