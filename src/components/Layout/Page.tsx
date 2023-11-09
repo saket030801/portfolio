@@ -4,7 +4,7 @@ import {memo, PropsWithChildren} from 'react';
 
 import {HomepageMeta} from '../../data/dataDef';
 
-const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title}) => {
+const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children}) => {
   return (
     <>
       <Head>
